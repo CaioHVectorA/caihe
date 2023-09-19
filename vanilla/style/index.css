@@ -1,0 +1,65 @@
+:root {
+    --main-color: #462064
+}
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+body {overflow-x: hidden;}
+
+h1 {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: bold;
+}
+
+.offsetProfile {
+    bottom: -40%;
+}
+
+.sectionTitle {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    /* gap: 32px; */
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-bottom: 1rem;
+}
+
+.sectionTitle hr {
+    background-color: var(--main-color);
+    /* width: 270px; */
+    width: 34%;
+    height: 3px;
+    border-radius: 999px;
+}
+
+.sectionTitle h1 {
+    font-weight: normal;
+}
+.section {
+    width: 60vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section .me {
+    text-align: center;
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+
+@media (max-width: 768px) {
+    .sectionTitle {
+        width: 100%;
+    }
+    .section {
+        width: 100vw;
+        margin-top: 48px;
+    }
+    .sectionTitle hr {
+        width: 27%;
+    }
+}
