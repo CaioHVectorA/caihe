@@ -69,14 +69,14 @@ const TECH = {
     },
     {
         title: "Todo",
-        body: "Sim, eu também fiz um TODO!!",
+        body: "Sim, eu também fiz um TODO. Eu fiz pois queria aperfeiçoar minhas técnicas com conexão com banco de dados e tratamento de dados.",
         icons: [TECH.TYPESCRIPT,TECH.REACT,TECH.STYLED_COMPONENTS,TECH.NODE,TECH.EXPRESS,TECH.MONGODB,],
         hrefGithub: "https://github.com/CaioHVectorA/todo-list-webapp",
         hrefWeb: "https://0nd520-5173.csb.app/",
         mainIMG: 'todo'
     },
     {
-        title: "aqueleappdojogodamasmorra",
+        title: "Aquele App",
         body: "Um trabalho que fiz de freelance, tal qual tinha como objetivo ser uma aplicação mobile que serviria para uma ferramenta em jogos RPG, mais especificamente de RPGs baseados no livro 'aquele jogo da masmorra com dragões e tal'. ",
         icons: [TECH.REACT,TECH.STYLED_COMPONENTS,TECH.JAVASCRIPT],
         hrefGithub: "https://github.com/CaioHVectorA/aqueleappdojogodamasmorra",
